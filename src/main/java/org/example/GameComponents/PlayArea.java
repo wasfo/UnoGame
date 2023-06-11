@@ -12,7 +12,6 @@ public class PlayArea {
     public PlayArea() {
         playStack = new Stack<>();
     }
-
     public void addCard(Card card) {
         playStack.add(card);
     }

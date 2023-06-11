@@ -11,8 +11,6 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class ClassicUno extends Game {
-
-
     public ClassicUno(int numberOfPlayers) {
         super(numberOfPlayers);
 

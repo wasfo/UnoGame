@@ -14,22 +14,23 @@ public class Player {
         this.playerCards = playerCards;
     }
 
-    public void playCard(Card card, PlayArea playArea) {
-        if (card != null)
-            playArea.addCard(card);
+    public Card playedCard(Card card) {
+        return card;
     }
-
+    public void playCard(Card card, PlayArea playArea) {
+        if (card != null) {
+            playArea.addCard(card);
+        }
+    }
     public void drawCards(int num, CardDeck cards) {
         for (int i = 0; i < num; i++) {
             Card card = cards.drawTopCard();
             playerCards.add(card);
         }
     }
-
     public boolean hasLegalCardToPlay(PlayArea playArea) {
         return true;
     }
-
 
     public String getName() {
         return name;

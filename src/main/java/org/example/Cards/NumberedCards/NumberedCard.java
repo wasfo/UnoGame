@@ -14,8 +14,5 @@ public class NumberedCard extends Card {
         this.number = number;
     }
 
-    @Override
-    public void activate(Game game) {
 
-    }
 }
