@@ -1,5 +1,5 @@
-package org.example.cards.GamePlay;
-import org.example.cards.Card;
+package org.example.GameComponents;
+import org.example.Cards.Card;
 import java.util.Collections;
 import java.util.Stack;
 
